@@ -1,0 +1,21 @@
+.account{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+.account .photo{
+    width: 30%;
+    border: 1px solid grey;
+}
+
+.photo img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    border-radius: 100px;
+}
+
+.account .details{
+    /* border: 1px solid red; */
+    width: 50%;
+}
